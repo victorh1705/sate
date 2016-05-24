@@ -28,7 +28,7 @@ public class AlunoTest extends TestCase {
     
     public void testEstadoAluno_EstadoMatriculadoParaMatriculado() {
         aluno.setEstado(new EstadoMatriculado());
-        assertEquals("Matricula não efetuada uma vez que o aluno já está matriculado.", aluno.matricular());
+        assertEquals("Matricula não efetuada uma vez que o aluno já está matriculado. ", aluno.matricular());
     }
     
     
